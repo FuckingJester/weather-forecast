@@ -1,4 +1,4 @@
-const linkApi = 'http://api.weatherapi.com/v1/current.json?key=4d606910362a4dc1915212744232601'
+const linkApi = 'https://api.weatherapi.com/v1/current.json?key=4d606910362a4dc1915212744232601'
 
 const root = document.getElementById("root");
 const popup = document.getElementById("popup");
