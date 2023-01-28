@@ -25,11 +25,7 @@ img {
     overflow: hidden;
     min-height: 480px;
   }
-  @media(max-width : 550px){
-    #app{
-        width: 80%;
-    }
-  }
+
   #root {
     height: 100%;
     width: 100%;
@@ -39,7 +35,7 @@ img {
     position: fixed;
     left: 0;
     top: 0;
-    width: 480px;
+    width: 100%;
     transform: translateX(-200%);
     background: #8781c5;
     border-radius: 4px;
@@ -54,7 +50,11 @@ img {
   .popup.active {
     transform: translateX(0);
   }
-  
+  @media(max-width : 550px){
+    #app{
+        width: 80%; 
+    }
+  }
   .popup-close {
     position: absolute;
     top: 20px;
